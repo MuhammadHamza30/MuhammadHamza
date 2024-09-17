@@ -14,9 +14,9 @@ import skill11 from '../assets/icons/mysql.png'
 import skill12 from '../assets/icons/Mongodb.png'
 import InstituteImg1 from '../assets/icons/Ezitech.png'
 import InstituteImg2 from '../assets/icons/Eziline.png'
-import Project1 from '../assets/icons/project1.jpg'
+import Project1 from '../assets/icons/Project1.jpg'
 import Project2 from '../assets/icons/project2.jpg'
-import Project3 from '../assets/icons/project3.jpg'
+import Project3 from '../assets/icons/Project3.jpg'
 import profileImage from '../assets/Images/IMG_20240812_001857.jpg'
 import Footer from "../Components/Footer";
 
