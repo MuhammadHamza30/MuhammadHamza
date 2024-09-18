@@ -9,11 +9,11 @@ a{
   width:150px;
   font-size:16px ;
   background:transparent;
-  color:#ffff ; 
-  border: 2px solid #ffff;
+  color:#ffffffab ; 
+  border: 2px solid #ffffffab;
   border-radius: 0.3rem;
   align-items: center;
-  margin: 0;
+  margin-left: 2rem;
   padding: 0;
 }
 
