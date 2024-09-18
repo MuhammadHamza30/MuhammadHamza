@@ -40,9 +40,9 @@ function Home() {
                   <p className="px-1">Rawalpindi Punjab Pakistan</p>
                 </div>
                 <div className="py-2">
-                  <a href="http://"><i class="bi bi-github"></i></a>
-                  <a href="http://"><i class="bi bi-linkedin px-3"></i></a>
-                  <a href="http://"><i class="bi bi-facebook "></i></a>
+                  <a href="https://www.github.com/MuhammadHamza30"><i class="bi bi-github"></i></a>
+                  <a href="https://www.linkedin.com/in/muhammadhamza30"><i class="bi bi-linkedin px-3"></i></a>
+                  <a href="https://www.facebook.com/muhammad.hamza.SE"><i class="bi bi-facebook "></i></a>
                 </div>
               </div>
             </div>
@@ -251,11 +251,16 @@ function Home() {
           </div>
           <div className="projectItem">
             <div className="row">
+            <div className="col-lg-5 col-md-12 p-0">
+                <div className="ProjectImg">
+                  <img src={Project2} className="img-fluid" alt="" />
+                </div>
+              </div>
               <div className="col-lg-7 col-md-12 p-0">
                 <div className="Projecttext">
                   <div className="d-flex justify-content-between">
-                    <h5>King (Modern E-Commerce Website Project)</h5>
-                    <p>On Going</p>
+                  <h5>Ahana ( Fittness And Training Website Project)</h5>
+                  <p>23 Aug 2024 | 30 Aug 2024</p>
                   </div>
                   <div>
                     <p>Develop a modern e-commerce website using React, HTML, CSS, and JavaScript, showcasing a stylish clothing and accessories collection. The site will feature a responsive design with a dynamic hero section, smooth navigation, and interactive elements. Users can browse new arrivals, view collections, and take advantage of sales promotions. Key libraries like React Router and CSS frameworks will be utilized to enhance functionality. The site will also support multiple languages and currencies, providing an engaging shopping experience.</p>
@@ -274,12 +279,8 @@ function Home() {
                   </div>
                   <div>
                     <a href="https://ahanafittnes.netlify.app/"><i class="bi bi-box-arrow-up-right px-1" />Live Link</a><br />
+                    <a href="https://github.com/MuhammadHamza30/Ahana_Fittnes"><i class="bi bi-github px-1" />GitHub Repo Link</a>
                   </div>
-                </div>
-              </div>
-              <div className="col-lg-5 col-md-12 p-0">
-                <div className="ProjectImg">
-                  <img src={Project2} className="img-fluid" alt="" />
                 </div>
               </div>
             </div></div>
@@ -293,8 +294,8 @@ function Home() {
               <div className="col-lg-7 col-md-12 p-0">
                 <div className="Projecttext">
                   <div className="d-flex justify-content-between">
-                    <h5>King (Modern E-Commerce Website Project)</h5>
-                    <p>On Going</p>
+                  <h5>Finloans (Loans  Website Project)</h5>
+                  <p>15 Aug 2024 | 22 Aug 2024</p>
                   </div>
                   <div>
                     <p>Develop a modern e-commerce website using React, HTML, CSS, and JavaScript, showcasing a stylish clothing and accessories collection. The site will feature a responsive design with a dynamic hero section, smooth navigation, and interactive elements. Users can browse new arrivals, view collections, and take advantage of sales promotions. Key libraries like React Router and CSS frameworks will be utilized to enhance functionality. The site will also support multiple languages and currencies, providing an engaging shopping experience.</p>
@@ -313,6 +314,7 @@ function Home() {
                   </div>
                   <div>
                     <a href="https://fineloans.netlify.app/"><i class="bi bi-box-arrow-up-right px-1" />Live Link</a><br />
+                    <a href="https://github.com/MuhammadHamza30/Finloans"><i class="bi bi-github px-1" />GitHub Repo Link</a>
                   </div>
                 </div>
               </div>

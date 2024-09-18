@@ -19,11 +19,11 @@ function Footer() {
               <i className='bi bi-geo-alt-fill' /> Rawalpindi Punjab Pakistan</p>
             <div className=''>
               <div className='iconslist d-flex p-0 pt-5'>
-                <div><a href=""><FaFacebookF size={25} /></a></div>
+                <div><a href="https://www.facebook.com/muhammad.hamza.SE"><FaFacebookF size={25} /></a></div>
                 <div><a href=""><FaTwitter size={25} /></a></div>
-                <div><a href=""><FaLinkedin size={25} /></a></div>
+                <div><a href="https://www.linkedin.com/in/muhammadhamza30"><FaLinkedin size={25} /></a></div>
                 <div><a href=""><FaInstagram size={25} /></a></div>
-                <div><a href=""><FaGithub size={25} /></a></div>
+                <div><a href="https://www.github.com/MuhammadHamza30"><FaGithub size={25} /></a></div>
               </div>
             </div>
           </div>
