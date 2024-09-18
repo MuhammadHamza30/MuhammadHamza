@@ -4,6 +4,16 @@ import logo from '../assets/Images/logo.png';
 
 function Navbar() {
 
+  const handleDownload = () => {
+
+    const fileUrl = "../assets/Images/MuhammadHamzaResume.pdf"; // Replace with your file path
+    const link = document.createElement("a");
+    link.href = fileUrl;
+    link.download = "MuhammadHamzaResume.pdf"; // Replace with the desired file name
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
   return (
     <>
       <div className="container">
@@ -34,6 +44,10 @@ function Navbar() {
                     </li>
                   </ul>
                 </div>
+                <div>
+                <button onClick={handleDownload} className="Download p-2">
+                  Download My CV
+                </button></div>
               </div>
             </nav>
           </div>
@@ -42,5 +56,4 @@ function Navbar() {
     </>
   )
 }
-
 export default Navbar;
