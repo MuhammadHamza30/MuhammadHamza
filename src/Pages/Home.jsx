@@ -17,7 +17,7 @@ import InstituteImg2 from '../assets/icons/Eziline.png'
 import Project1 from '../assets/icons/Project1.jpg'
 import Project2 from '../assets/icons/project2.jpg'
 import Project3 from '../assets/icons/Project3.jpg'
-import profileImage from '../assets/Images/IMG_20240812_001857.jpg'
+import profileImage from '../assets/Images/WhatsApp Image 2025-06-17 at 15.07.52_925bbeb8.jpg'
 import Footer from "../Components/Footer";
 
 function Home() {
