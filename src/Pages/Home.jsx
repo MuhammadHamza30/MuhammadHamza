@@ -86,7 +86,7 @@ function Home() {
             <div className="col-lg-2">
               <div className="SkillImage">
                 <img src={skill5} className="img-fluid" alt="" srcset="" />
-                <h5>Angular</h5>
+                <h5>Shadcn Ui</h5>
               </div></div>
             <div className="col-lg-2">
               <div className="SkillImage">
@@ -98,7 +98,7 @@ function Home() {
             <div className="col-lg-2">
               <div className="SkillImage">
                 <img src={skill7} className="img-fluid" alt="" srcset="" />
-                <h5>Node Js</h5>
+                <h5>Next ui</h5>
               </div></div>
             <div className="col-lg-2">
               <div className="SkillImage">
@@ -118,12 +118,12 @@ function Home() {
             <div className="col-lg-2">
               <div className="SkillImage">
                 <img src={skill11} className="img-fluid" alt="" srcset="" />
-                <h5>MySql</h5>
+                <h5>Agile</h5>
               </div></div>
             <div className="col-lg-2">
               <div className="SkillImage">
                 <img src={skill12} className="img-fluid" alt="" srcset="" />
-                <h5>Mongodb</h5>
+                <h5>Ai For Developing</h5>
               </div></div>
           </div>
         </div>
