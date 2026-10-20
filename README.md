@@ -1,10 +1,10 @@
 # Muhammad Hamza — modern React portfolio
 
-A responsive portfolio updated from the supplied CV. Built with React 18, Vite, and react-icons. Includes a downloadable copy of the supplied CV, selected project work, an AI-assisted workflow explorer, experience, skills, contact links, and social integrations.
+A responsive portfolio updated from the supplied CV. Built with React 19, Vite, and react-icons. Includes a downloadable copy of the supplied CV, selected project work, an AI-assisted workflow explorer, experience, skills, contact links, and social integrations.
 
 ## Run locally (Windows, macOS, Linux)
 
-Requires Node.js 20.19+ or 22.12+.
+Requires Node.js 20.19+, 22.13+, or 24+.
 
 ```sh
 npm ci
