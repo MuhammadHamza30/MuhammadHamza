@@ -15,14 +15,14 @@ export default function Contact() {
     [draftOpened, setDraftOpened] = useState(false),
     [subject, setSubject] = useState("A project collaboration"),
     [message, setMessage] = useState("");
-  const timer = useRef();
-  useEffect(() => () => clearTimeout(timer.current), []);
+  const timerRef = useRef();
+  useEffect(() => () => clearTimeout(timerRef.current), []);
   async function copy() {
     try {
       await navigator.clipboard.writeText(profile.email);
       setCopied(true);
       setCopyError(false);
-      timer.current = setTimeout(() => setCopied(false), 2500);
+      timerRef.current = setTimeout(() => setCopied(false), 2500);
     } catch {
       setCopyError(true);
     }

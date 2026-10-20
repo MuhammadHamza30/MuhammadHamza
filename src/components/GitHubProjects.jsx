@@ -28,8 +28,6 @@ export default function GitHubProjects() {
     [reload, setReload] = useState(0);
   useEffect(() => {
     const controller = new AbortController();
-    setStatus("loading");
-    setError("");
     fetchRepositories(profile.github, {
       signal: controller.signal,
       refresh: reload > 0,
@@ -80,7 +78,11 @@ export default function GitHubProjects() {
           className="icon-button"
           aria-label="Refresh GitHub projects"
           disabled={status === "loading"}
-          onClick={() => setReload((v) => v + 1)}
+          onClick={() => {
+            setStatus("loading");
+            setError("");
+            setReload((v) => v + 1);
+          }}
         >
           <FiRefreshCw className={status === "loading" ? "spin" : ""} />
         </button>

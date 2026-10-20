@@ -3,7 +3,6 @@ import {
   FiArrowUpRight,
   FiArrowRight,
   FiGithub,
-  FiLinkedin,
   FiSun,
   FiMoon,
   FiMenu,
@@ -12,13 +11,15 @@ import {
   FiMapPin,
 } from "react-icons/fi";
 import portrait from "./assets/Images/Studio Portrait with CEH Badge.png";
-import { profile, projects, experience, skillGroups } from "./data/profile";
+import { projects, experience, skillGroups } from "./data/profile";
 import { External, SectionHeading } from "./components/Shared";
 import GitHubProjects from "./components/GitHubProjects";
 import AIWorkflow from "./components/AIWorkflow";
 import LinkedInPosts from "./components/LinkedInPosts";
 import Contact from "./components/Contact";
 import "./App.css";
+
+const copyrightYear = new Date().getFullYear();
 
 function ProjectArt({ project }) {
   return (
@@ -66,8 +67,8 @@ function ProjectArt({ project }) {
               <i />
             </div>
             <div className="mock-chart">
-              {[30, 55, 40, 75, 58, 95, 70, 87, 100].map((h, i) => (
-                <span key={i} style={{ height: `${h}%` }} />
+              {[30, 55, 40, 75, 58, 95, 70, 87, 100].map((h) => (
+                <span key={h} style={{ height: `${h}%` }} />
               ))}
             </div>
           </div>
@@ -93,7 +94,9 @@ export default function App() {
     document.documentElement.dataset.theme = theme;
     try {
       localStorage.setItem("hamza-theme", theme);
-    } catch {}
+    } catch {
+      /* storage may be blocked */
+    }
   }, [theme]);
   useEffect(() => {
     function close(e) {
@@ -414,9 +417,7 @@ export default function App() {
         <a href="#" className="brand">
           mh<span>.</span>
         </a>
-        <p>
-          © {new Date().getFullYear()} Muhammad Hamza. Built with intention.
-        </p>
+        <p>© {copyrightYear} Muhammad Hamza. Built with intention.</p>
         <a className="text-link" href="#main">
           Back to top ↑
         </a>
