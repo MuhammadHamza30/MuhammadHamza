@@ -11,7 +11,7 @@ import {
   FiDownload,
   FiMapPin,
 } from "react-icons/fi";
-import portrait from "./assets/Images/portrait.webpStudio Portrait with CEH Badge.png";
+import portrait from "./assets/Images/Studio Portrait with CEH Badge.png";
 import { profile, projects, experience, skillGroups } from "./data/profile";
 import { External, SectionHeading } from "./components/Shared";
 import GitHubProjects from "./components/GitHubProjects";
