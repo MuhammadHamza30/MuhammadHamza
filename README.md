@@ -4,7 +4,7 @@ A responsive portfolio updated from the supplied CV. Built with React 19, Vite, 
 
 ## Run locally (Windows, macOS, Linux)
 
-Requires Node.js 20.19+, 22.13+, or 24+.
+Requires Node.js 20.19 or later (22.12+ or 24 also work). Netlify builds with Node 24.
 
 ```sh
 npm ci
